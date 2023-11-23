@@ -1,10 +1,10 @@
-import React, { memo } from 'react'
-import clsx from 'clsx'
 import Link from '@docusaurus/Link'
+import clsx from 'clsx'
+import { memo } from 'react'
 
-import styles from './styles.module.css'
 import { type Resource } from '@site/data/resource'
 import Tooltip from '../../../project/_components/ShowcaseTooltip'
+import styles from './styles.module.css'
 
 const ResourceCard = memo(({ resource }: { resource: Resource }) => (
   <li
@@ -18,6 +18,7 @@ const ResourceCard = memo(({ resource }: { resource: Resource }) => (
           : (resource.logo as any)?.src?.src
       }
       alt={resource.name}
+      loading="lazy"
       className={clsx(styles.resourceCardImage)}
     />
     <div className={styles.resourceCardBody}>
