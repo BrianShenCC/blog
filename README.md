@@ -14,7 +14,7 @@ Brian Shen's personal blog
 
 Here, I will share the problems encountered with various technology stacks and their solutions, take you to understand the latest technology stacks and how to apply them in actual development, and hope that my development experience will inspire you.
 
-If you want to build a similar website [Fork](https://github.com/HaoxiangShen/blog/fork) Use this repository
+If you want to build a similar website [Fork](https://github.com/BrianShenCC/blog/fork) Use this repository
 
 Run this project online [StackBlitz](https://stackblitz.com/github/HaoxiangShen/blog)
 
@@ -61,7 +61,7 @@ Run this project online [StackBlitz](https://stackblitz.com/github/HaoxiangShen/
 ## 📥 Start
 
 ```sh
-git clone https://github.com/HaoxiangShen/blog.git
+git clone https://github.com/BrianShenCC/blog.git
 cd blog
 pnpm install
 pnpm start

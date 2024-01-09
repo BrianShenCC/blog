@@ -1,4 +1,4 @@
-const { themes } = require('prism-react-renderer');
+const { themes } = require('prism-react-renderer')
 
 const path = require('path')
 
@@ -84,7 +84,7 @@ export default async function createConfigAsync() {
         style: 'dark',
         links: [
           {
-            title: 'What\'s New',
+            title: "What's New",
             items: [
               { label: 'Blog', to: 'blog' },
               { label: 'Archive Blog', to: 'blog/archive' },
@@ -96,8 +96,11 @@ export default async function createConfigAsync() {
             title: 'Social Media',
             items: [
               { label: 'About', to: '/about' },
-              { label: 'GitHub', href: 'https://github.com/HaoxiangShen' },
-              { label: 'Linkedin', href: 'https://www.linkedin.com/in/brian-shen-0b0716245' },
+              { label: 'GitHub', href: 'https://github.com/BrianShenCC' },
+              {
+                label: 'Linkedin',
+                href: 'https://www.linkedin.com/in/brian-shen-0b0716245',
+              },
             ],
           },
           {
@@ -126,7 +129,7 @@ export default async function createConfigAsync() {
       //   darkTheme: 'dark',
       // },
       socials: {
-        github: 'https://github.com/HaoxiangShen',
+        github: 'https://github.com/BrianShenCC',
         linkedin: 'https://www.linkedin.com/in/brian-shen-0b0716245',
         email: 'mailto:shenhaoxiang1990@gmail.com',
       },
@@ -196,9 +199,9 @@ export default async function createConfigAsync() {
         {
           path: 'blog',
           editUrl: ({ locale, blogDirPath, blogPath, permalink }) =>
-            `https://github.com/HaoxiangShen/blog/edit/main/${blogDirPath}/${blogPath}`,
+            `https://github.com/BrianShenCC/blog/edit/main/${blogDirPath}/${blogPath}`,
           editLocalizedFiles: false,
-          blogDescription: 'Brian Shen\'s Personal Blog',
+          blogDescription: "Brian Shen's Personal Blog",
           blogSidebarCount: 10,
           blogSidebarTitle: 'Blogs',
           postsPerPage: 10,
@@ -211,10 +214,7 @@ export default async function createConfigAsync() {
           },
         },
       ],
-      [
-        '@docusaurus/plugin-ideal-image',
-        { disableInDev: false },
-      ],
+      ['@docusaurus/plugin-ideal-image', { disableInDev: false }],
       [
         '@docusaurus/plugin-pwa',
         {

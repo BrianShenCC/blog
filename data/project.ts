@@ -6,7 +6,7 @@ export const projects: Project[] = [
     description: '🦖 Personal blog based on Docusaurus static site generator',
     preview: '/img/project/blog.png',
     website: 'https://brianshen.cc',
-    source: 'https://github.com/HaoxiangShen/blog',
+    source: 'https://github.com/BrianShenCC/blog',
     tags: ['opensource', 'design', 'favorite'],
     type: 'web',
   },
